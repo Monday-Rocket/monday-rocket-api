@@ -1,4 +1,6 @@
 package com.monday.rocket.acproject.controller.user.dto
 
-class UpdateUserRequest {
-}
+data class UpdateUserRequest(
+    val nickname: String,
+    val jobGroupName: Int,
+)
